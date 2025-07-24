@@ -8,6 +8,7 @@ body{
     width: 100%;
     background-color: #2979c0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;
 }
 
 nav{
@@ -18,6 +19,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     position: sticky;
+    box-shadow: 0 0 5px black;
     top: 0px;
 }
 
@@ -26,12 +28,13 @@ color: white;
 text-decoration: none;
 }
 .logo h1 a:hover{
-    text-shadow: 0 0 5px white;
+    text-shadow: 0 0 10px rgb(0, 0, 0);
 }
 
 nav ul{
     display: flex;
     gap: 1rem;
+    transition: all 0.5s;
 }
 
 nav ul li{
@@ -54,4 +57,44 @@ nav ul li a:hover{
 
 nav .menu-icon{
     display: none;
+}
+
+nav .menu-icon i{
+    font-size: larger;
+    color: #fff;
+}
+
+
+@media (max-width:600px){
+
+    nav ul{
+        width: 100%;
+        flex-direction: column;
+        position: absolute;
+        top:3rem;
+        background-color: #034a89;
+        left: 0;
+    }
+
+    .menu-list{
+        left: 100%;
+    }
+
+    nav ul li{
+        padding: 1rem;
+        text-align: center;
+    }
+
+    nav ul li:hover{
+        background-color: #fff;
+    }
+
+    nav ul li:hover a{
+        color: #034a89;
+    }
+
+    nav .menu-icon{
+        display: block;
+    }
+    
 }
