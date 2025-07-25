@@ -91,6 +91,7 @@ nav .menu-icon i{
 
     nav ul li:hover a{
         color: #034a89;
+        box-shadow: 0 0 5px #000;
     }
 
     nav .menu-icon{
