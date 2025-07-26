@@ -2,11 +2,12 @@
 
 A responsive and interactive navigation bar built using **HTML**, **CSS**, and **JavaScript**. This project demonstrates how to create a modern navbar with basic JavaScript toggling for mobile view.
 
-## Desktop
+## Screenshot
 
+**Desktop**
 ![Screenshot](https://raw.githubusercontent.com/Deepak-Kumar-Saini/Simple-nav-bar-html-css-js/refs/heads/main/Desktop-mode.PNG)
 
-## Mobile
+**Mobile**
 ![Screenshot](https://raw.githubusercontent.com/Deepak-Kumar-Saini/Simple-nav-bar-html-css-js/refs/heads/main/mobile-mode.PNG)
 
 ---
